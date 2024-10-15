@@ -1,4 +1,4 @@
-# Function to evaluate student's performance based on percentage
+#TUGAS 1
 def evaluate_performance(percentage):
     # Jika nilai persentase >= 90, kembalikan "Excellent performance"
     if percentage >= 90:
@@ -24,7 +24,7 @@ result = evaluate_performance(percentage)
 print(result)
 
 
-# Function to find the largest number among three
+#TUGAS 2
 def largest_of_three(a, b, c):
     # Fungsi max() digunakan untuk menemukan angka terbesar di antara a, b, dan c
     return max(a, b, c)
@@ -37,7 +37,7 @@ c = float(input("Masukkan angka ketiga: "))
 print("The largest number is:", largest_of_three(a, b, c))
 
 
-# Function to print Fibonacci series up to n terms
+#TUGAS 3
 n = int(input("Masukkan batas bilangan Fibonacci: "))
 
 # Inisialisasi dua bilangan pertama dari deret Fibonacci
@@ -49,7 +49,7 @@ while a <= n:
 print()
 
 
-# Function untuk mencetak angka ganjil hingga n
+#TUGAS  4
 def cetak_angka_ganjil(n):
     # Loop dari 1 hingga n
     for i in range(1, n + 1):
@@ -63,7 +63,7 @@ n = int(input("Masukkan nilai n: "))
 cetak_angka_ganjil(n)
 
 
-# Function untuk mencetak pola berdasarkan n
+#TUGAS 5
 def print_pattern(n):
     # Loop untuk mencetak pola
     for i in range(1, n + 1):  # Loop melalui setiap baris
